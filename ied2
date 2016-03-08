@@ -1,0 +1,47 @@
+
+//int getvoice(){
+//  int i,ans=0,ans2;
+//  for(i=7;i>=4;i--){
+//    ans=ans<<1;
+//    if(digitalRead(vpins[i])==HIGH){
+//      ans+=1;
+//    }
+//  }
+//  ans2=0;
+//  for(i=3;i>=0;i--){
+//    ans2=ans2<<1;
+//    if(digitalRead(vpins[i])==HIGH){
+//      ans2+=1;
+//    }
+//  }
+//  ans = (ans*10)+ans2;
+//  return ans;
+//}
+
+
+//  int comm=getvoice();
+//  if(comm==6){
+//    delay(2000);
+//    comm=getvoice();
+//    Serial.println("Voice Command  ");
+//    Serial.println(command[comm]);
+//    if(comm==1) forward();
+//    else if(comm==2) backward();
+//    else if(comm==3) left();
+//    else if(comm==4) right();
+// else if(comm==5) Stop();
+//   else if(comm==77){
+//    Serial.println("Command not recognised.");
+//  }
+//  else if(comm==55){
+//    Serial.println("Word too long.");
+//  }
+//  else if(comm==66){
+//    Serial.println("Word too short.");
+//  }
+//  else{
+//    Serial.println("Circuit error");
+//  }
+//  Serial.println("\n");
+//  }
+// delay(2000);
